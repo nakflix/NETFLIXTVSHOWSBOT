@@ -8,3 +8,4 @@ COPY . .
 
 CMD python3 main.py
 
+ -p 80:8080
