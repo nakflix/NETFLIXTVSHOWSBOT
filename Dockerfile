@@ -5,7 +5,7 @@ COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 COPY . .
- -p 8080:8080
+ EXPOSE 8080/tcp
 CMD python3 main.py
 
 
