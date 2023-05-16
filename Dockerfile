@@ -5,7 +5,9 @@ COPY requirements.txt requirements.txt
 RUN  pip3 install -r requirements.txt
 
 COPY . .
-EXPOSE 80
+# Setting a port for your app communications with Telegram servers.
+
+EXPOSE 80/tcp
 CMD python3 main.py
 
 
