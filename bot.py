@@ -1,7 +1,7 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
 # t.me/SharingUserbot & t.me/Lunatic0de
-git.refresh()
+
 import pyromod.listen
 import sys
 
