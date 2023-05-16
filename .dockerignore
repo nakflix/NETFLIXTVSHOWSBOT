@@ -1,0 +1,9 @@
+$ docker build -t nextjs-todo:1.0 .
+
+$ docker run -it -p 3000:3000 -d nextjs-todo:1.0
+
+> nextjs-todo@0.1.0 dev
+
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
