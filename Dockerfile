@@ -7,7 +7,7 @@ RUN  pip3 install -r requirements.txt
 COPY . .
 # Setting a port for your app communications with Telegram servers.
 
-EXPOSE 443/tcp
+EXPOSE 3333/tcp
 CMD python3 main.py
 
 
