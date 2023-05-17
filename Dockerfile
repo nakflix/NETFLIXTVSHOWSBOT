@@ -21,6 +21,6 @@ USER appuser
 EXPOSE 8000/tcp
 
 ENTRYPOINT [ "tini", "--" ]
-CMD python3 main.py
+CMD  [ "python3 main.py", "/app/martor_demo/manage.py", "runserver", "0.0.0.0:8000" ]
 
 
