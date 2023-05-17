@@ -18,7 +18,7 @@ COPY . .
         
 # Setting a port for your app communications with Telegram servers.
 
-USER appuser
+
 
 EXPOSE 8000/tcp
 
