@@ -1,3 +1,12 @@
+FROM ubuntu
+
+RUN apt-get update
+
+RUN apt-get install -y python3.8
+
+ENTRYPOINT ["python3"]
+
+
 FROM python:3.8-slim-buster
 WORKDIR /app
 
