@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from logging.handlers import RotatingFileHandler
 import os
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
-import git
+
 
 load_dotenv("config.env")
 
