@@ -10,7 +10,7 @@ CMD python3 main.py
 
 EXPOSE 8000/tcp
 
-
+set GIT_PYTHON_REFRESH=quiet
 
 
 
