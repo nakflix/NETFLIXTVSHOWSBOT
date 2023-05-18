@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from logging.handlers import RotatingFileHandler
 
 load_dotenv("config.env")
-
+set GIT_PYTHON_REFRESH= "quiet" 
 # Bot token dari @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5928242691:AAG20OcsZ1ZHcr8ZRz5fd8e8NND2jppeNIs")
 
@@ -64,7 +64,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "ᴊᴏɪɴ @NAKFLIXTV")
 
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "False"))
-set GIT_PYTHON_REFRESH=quiet
+
 
 LOG_FILE_NAME = "logs.txt"
 logging.basicConfig(
