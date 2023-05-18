@@ -10,10 +10,10 @@ RUN pip install -r requirements.txt
 
 # Copy other project files
 COPY . .
-
+RUN pip install --upgrade pip
 # Expose a port to Containers 
 EXPOSE 8080
 
 # Command to run on server
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app"]
+CMD ["main.py", "-b", "0.0.0.0:8080", "app:app"]
 
