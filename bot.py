@@ -9,6 +9,7 @@ from pyrogram import Client
 from pyrogram.types import ChatJoinRequest
 
 from config import (
+   GIT_PYTHON_REFRESH, 
     API_HASH,
     APP_ID,
     CHANNEL_ID,
