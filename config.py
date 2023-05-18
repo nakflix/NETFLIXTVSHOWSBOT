@@ -7,9 +7,12 @@ import os
 from distutils.util import strtobool
 from dotenv import load_dotenv
 from logging.handlers import RotatingFileHandler
+import os
+os.environ["GIT_PYTHON_REFRESH"] = "quiet"
+import git
 
 load_dotenv("config.env")
-GIT_PYTHON_REFRESH = os.environ.get("GIT_PYTHON_REFRESH", "quiet") 
+
 # Bot token dari @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5928242691:AAG20OcsZ1ZHcr8ZRz5fd8e8NND2jppeNIs")
 
