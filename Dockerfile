@@ -15,5 +15,5 @@ RUN pip install --upgrade pip
 EXPOSE 8080
 
 # Command to run on server
-CMD ["main.py"]
+CMD  [ "python3", "runserver", "0.0.0.0:8000" ]
 
