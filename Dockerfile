@@ -8,7 +8,7 @@ COPY . .
 
 CMD python3 main.py
 
-EXPOSE 8000/tcp
+EXPOSE 80/tcp
 
 
 
