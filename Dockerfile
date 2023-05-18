@@ -10,10 +10,10 @@ RUN pip install -r requirements.txt
 
 # Copy other project files
 COPY . .
-RUN pip install --upgrade pip
+RUN python -m pip install --upgrade pip
 # Expose a port to Containers 
 EXPOSE 8080
 
 # Command to run on server
-CMD  [ "python main.py", "runserver", "0.0.0.0:8000" ]
+CMD  [ "python3 main.py", "start", "0.0.0.0:8000" ]
 
