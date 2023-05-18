@@ -42,7 +42,7 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001909894765"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001585995212"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
-EXPOSE = "8080"
+
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
