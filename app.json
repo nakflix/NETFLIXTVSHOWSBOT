@@ -11,23 +11,23 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
-      "value": ""
+      "value": "5928242691:AAG20OcsZ1ZHcr8ZRz5fd8e8NND2jppeNIs"
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin di BOT [ Gunakan Spasi Untuk Pemisah User ID ]",
-      "value": ""
+      "value": "1458235021"
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
-      "value": ""
+      "value": "14298205"
     },
     "API_HASH": {
       "description": "Dapatkan API HASH di web my.telegram.org",
-      "value": ""
+      "value": "28df6d84da76d8606bf5f0e71ecfb62c"
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
-      "value": "-100"
+      "value": "-1001755253960"
     },
     "PROTECT_CONTENT": {
       "description": "Untuk Mencegah pengguna bot untuk mendownload/memforward/mengscreenshot konten yang dikirim di bot [ Bila ingin diaktifkan ubah ke True ]",
@@ -35,23 +35,23 @@
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
-      "value": "0"
+      "value": "-1001861505272"
     },
     "FORCE_SUB_CHANNEL2": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
-      "value": "0"
+      "value": "-1001909894765"
     },
     "FORCE_SUB_GROUP": {
       "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
-      "value": "0"
+      "value": "-1001585995212"
      },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://Alphanakflix:alpha3720@cluster0.a9seax6.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "cluster0"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
