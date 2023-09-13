@@ -30,7 +30,7 @@ PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "netflixtvshows" )
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "cfba460e-bb14-4a3f-9607-b21bddb83438")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "cf493a35-2310-4162-a292-06afc8ef315e")
 
 # Custom Repo for updater.
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
